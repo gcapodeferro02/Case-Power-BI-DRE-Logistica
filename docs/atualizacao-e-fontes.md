@@ -15,6 +15,15 @@ flowchart LR
 O refresh segue uma sequência simples: localizar a entrada, transformar o
 conteúdo, carregar as tabelas e atualizar as medidas.
 
+## Fluxo visual da atualização
+
+A imagem abaixo apresenta uma visão ilustrativa do caminho entre os arquivos de
+origem, a sincronização intermediária, o modelo semântico e o relatório final.
+Ela foi incluída como material demonstrativo e não contém valores operacionais,
+credenciais ou dados de negócio.
+
+![Fluxo visual da atualização do relatório DRE](../assets/fluxo-atualizacao-real.png)
+
 ## Etapas de transformação
 
 ### 1. Descoberta
@@ -71,4 +80,3 @@ O Power BI não corrige uma fonte inconsistente sozinho. Se o arquivo muda nome
 de coluna, formato de data ou regra de sinal, a consulta precisa capturar essa
 mudança explicitamente ou o refresh pode falhar silenciosamente em uma camada
 posterior.
-

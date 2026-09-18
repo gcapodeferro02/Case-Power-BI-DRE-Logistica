@@ -42,6 +42,10 @@ flowchart LR
 
 ![Arquitetura do case](assets/arquitetura-dados.png)
 
+O fluxo visual detalhado entre origem, sincronização, modelo semântico e
+relatório está documentado em
+[Atualização e fontes](docs/atualizacao-e-fontes.md).
+
 ## Índice da documentação
 
 | Documento | O que explica |
@@ -87,4 +91,3 @@ segredos, caminhos locais, URLs corporativas e imagens não ofuscadas.
 - documentar um contrato de atualização para cada fonte;
 - incluir métricas de duração e falha do refresh;
 - evoluir o modelo para uma camada analítica governada.
-
