@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+artifacts/
+tools/assets-manifest.json
+*.pbix
+*.pbit
+*.pbip
+*.abf
+*.bak
+.env
+
