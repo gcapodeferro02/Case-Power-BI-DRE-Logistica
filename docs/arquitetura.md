@@ -19,6 +19,9 @@ flowchart TB
     M --> R[Páginas do relatório]
 ```
 
+O fluxo conecta dimensões e fatos a medidas DAX, mantendo a regra de negócio
+separada da camada visual.
+
 ## Por que separar as responsabilidades?
 
 Quando a regra de negócio fica espalhada entre consultas, visuais e fórmulas,
@@ -38,4 +41,3 @@ O trabalho combina três perspectivas:
 - **Dados:** garantir que as colunas tenham tipo, chave e granularidade coerentes.
 - **Negócio:** transformar perguntas financeiras em regras mensuráveis.
 - **Produto analítico:** apresentar o resultado com hierarquia visual e navegação.
-

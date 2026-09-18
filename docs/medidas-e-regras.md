@@ -38,6 +38,15 @@ As comparações mais importantes são:
 O case evita publicar fórmulas com valores reais. A documentação explica a
 intenção do cálculo e o contexto em que ele deve ser usado.
 
+Exemplo genérico e sanitizado de uma comparação:
+
+```DAX
+Variação = [Realizado] - [Orçamento]
+```
+
+O exemplo demonstra a intenção analítica sem revelar regras financeiras
+confidenciais, valores reais ou nomes de estruturas internas.
+
 ## Indicadores visuais
 
 Além do valor, o modelo possui medidas auxiliares para controlar cores, textos,
@@ -51,4 +60,3 @@ reutilizável e reduz fórmulas longas nos objetos do relatório.
 - evitar misturar orçamento mensal e anual na mesma medida;
 - tratar ausência de dados de forma explícita;
 - testar a medida com filtros de mês, categoria e centro de custo.
-
