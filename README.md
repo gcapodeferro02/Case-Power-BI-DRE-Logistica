@@ -40,7 +40,7 @@ flowchart LR
     E --> F[Tomada de decisão]
 ```
 
-![Arquitetura do case](assets/arquitetura-dados.png)
+![Fluxo de atualização do relatório DRE](assets/fluxo-atualizacao-real.png)
 
 O fluxo visual detalhado entre origem, sincronização, modelo semântico e
 relatório está documentado em
