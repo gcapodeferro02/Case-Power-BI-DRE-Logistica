@@ -29,22 +29,7 @@ confidencialidade do ambiente original.
 - navegação entre visão executiva e detalhamento por categoria;
 - publicação segura de evidências visuais.
 
-## Arquitetura em uma visão
-
-```mermaid
-flowchart LR
-    A[Arquivos de origem] --> B[Power Query]
-    B --> C[Modelo semântico]
-    C --> D[Medidas DAX]
-    D --> E[Relatório DRE]
-    E --> F[Tomada de decisão]
-```
-
 ![Fluxo de atualização do relatório DRE](assets/fluxo-atualizacao-real.png)
-
-O fluxo visual detalhado entre origem, sincronização, modelo semântico e
-relatório está documentado em
-[Atualização e fontes](docs/atualizacao-e-fontes.md).
 
 ## Índice da documentação
 
