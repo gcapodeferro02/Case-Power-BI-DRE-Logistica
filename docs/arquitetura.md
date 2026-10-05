@@ -1,5 +1,7 @@
 # Arquitetura da solução
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Visão simples
 
 O relatório foi organizado em quatro responsabilidades:

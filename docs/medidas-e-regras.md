@@ -1,5 +1,7 @@
 # Medidas e regras de negócio
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Organização das medidas
 
 As medidas foram agrupadas por finalidade para que o leitor encontre o cálculo

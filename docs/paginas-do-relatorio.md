@@ -1,5 +1,7 @@
 # Páginas do relatório
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Visão principal
 
 A página principal concentra os indicadores do DRE e permite que o usuário

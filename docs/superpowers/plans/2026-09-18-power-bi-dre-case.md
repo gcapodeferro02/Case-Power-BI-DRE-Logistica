@@ -1,5 +1,6 @@
 # Power BI DRE Case Implementation Plan
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Criar um case publico e didatico que documente a construcao, atualizacao, modelagem e apresentacao de um relatorio Power BI DRE sem expor dados corporativos.

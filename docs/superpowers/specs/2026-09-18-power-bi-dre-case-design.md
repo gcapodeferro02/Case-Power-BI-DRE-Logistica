@@ -1,5 +1,7 @@
 # Especificacao do case Power BI DRE
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Objetivo
 
 Criar um repositorio publico de portfolio que explique, de forma didatica,

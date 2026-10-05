@@ -1,5 +1,6 @@
 # Case: desenvolvimento de um Power BI DRE
 
+> **Nó Pai:** [[05_PROJETOS/DRE/HUB_DRE|Voltar ao HUB DRE]] | [[00_INDICE_MESTRE|Índice Mestre]]  
 > Documentação pública e sanitizada de uma solução de Business Intelligence
 > para acompanhar realizado, orçamento, variações e detalhamento financeiro.
 
@@ -73,6 +74,8 @@ Relatório
 | [Medidas e regras](docs/medidas-e-regras.md) | Organização das medidas e comparações do DRE |
 | [Páginas do relatório](docs/paginas-do-relatorio.md) | Visão final, detalhamento e drillthrough |
 | [Segurança e limitações](docs/seguranca-e-limitacoes.md) | Sanitização, exclusões e limites do case público |
+| [Plano de Engenharia](docs/superpowers/plans/2026-09-18-power-bi-dre-case.md) | Plano de implementação e fases do dashboard |
+| [Especificação de Design](docs/superpowers/specs/2026-09-18-power-bi-dre-case-design.md) | Especificação técnica completa de arquitetura e design |
 
 ## Perguntas de negócio respondidas
 

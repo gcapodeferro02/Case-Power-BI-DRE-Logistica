@@ -1,5 +1,7 @@
 # Atualização e fontes
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Fluxo de atualização
 
 ```mermaid

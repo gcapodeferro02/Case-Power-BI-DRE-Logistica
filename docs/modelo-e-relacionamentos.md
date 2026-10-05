@@ -1,5 +1,7 @@
 # Modelo semântico e relacionamentos
 
+> **Nó Pai:** [[05_PROJETOS/DRE/Case-Power-BI-DRE-Logistica/README|Voltar ao Case DRE]] | [[05_PROJETOS/DRE/HUB_DRE|HUB DRE]]  
+
 ## Como ler o modelo
 
 O modelo combina tabelas de movimentação e orçamento com dimensões usadas para
@@ -27,20 +29,20 @@ filtrar a análise. Em linguagem simples:
 
 ```mermaid
 flowchart LR
-    CAL[dCalendário] --> LAN[ Lançamentos ]
+    CAL[dCalendario] --> LAN[ fRealizados ]
     CAT[dCategoria] --> LAN
     SUB[dSubcategoria] --> LAN
-    CC[dCentro de custo] --> LAN
-    FORN[dFornecedor] --> LAN
-    CAT --> ORC[Orçamento DRE]
+    CC[dCentroDeCusto] --> LAN
+    FORN[dFornecedores / dFornecedor] --> LAN
+    CAT --> ORC[fOrcamentoDRE]
     SUB --> ORC
     CC --> ORC
     CAL --> ORC
-    CAL --> OBZ[Bases de planejamento]
+    CAL --> OBZ[4 Tabelas fBaseZero_*]
     CAT --> OBZ
     SUB --> OBZ
     CC --> OBZ
-    LAN --> MED[_Medidas]
+    LAN --> MED[Medidas]
     ORC --> MED
     OBZ --> MED
 ```
