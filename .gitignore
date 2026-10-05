@@ -10,4 +10,7 @@ tools/assets-manifest.json
 *.abf
 *.bak
 .env
+desktop.ini
+Desktop.ini
+[Dd]esktop.ini
 
